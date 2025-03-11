@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    font-family: Plus jakarta sans;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    font-family: Plus jakarta sans;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: relative;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(135deg, #1e7e34, #155d27);
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: (transparent); 
+    color: #fff;
+    padding: 1rem 2rem;
+    ;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  }
+  
+  nav .logo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav .nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  nav .nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    nav .nav-links {
+      display: none; /* Hide links on smaller screens */
+    }
+  }
+  /* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+
+
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+   */
+  #bgimg{
+    background-image: url(jonathan-kho-AweUC9wTnbs-unsplash.jpg);
+    background-size: cover;
+  }
+ /* #bg2{
+  background: url(matt-collamer-8UG90AYPDW4-unsplash.jpg);
+  background-size: cover;
+
+ } */
+
+ 
+  .hero {
+    background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    color: black;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background: #007BFF;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background: #28a745;
+    color: #fff;
+  }
+  
+
+  .about {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .about p {
+    color: #ffffff;
+  }
+  
+  
+  .services {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .get-help {
+    padding: 2rem;
+    text-align: center;
+    background: #050404;
+  }
+  
+  .get-help h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  .get-help p {
+    color: white;
+  }
+  
+  .donate {
+    padding: 2rem;
+    text-align: center;
+    background: #050404;
+  }
+  
+  .donate h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .donate p {
+    color: white;
+  }
+  
+  
+  footer {
+    background: #333;
+    color: #afa7a7;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(244, 244, 244, 0.4);
+    
+    padding: 1rem;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.about {
+  background: rgba(244, 244, 244, 0.4);
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #555;
+}

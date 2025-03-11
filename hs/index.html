@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HopeHarbor
+    - Connecting Communities</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bgimg">
+  <nav>
+    <div class="logo"><u>HopeHarbor</u>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#get-help">Get Help</a></li>
+      <li><a href="#donate">Donate</a></li>
+    </ul>
+  </nav>
+
+ 
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Connecting Homeless Individuals to Shelters, Jobs, and Essential Services</h1>
+      <p>Find help, resources, and opportunities in your community.</p>
+      <div class="cta-buttons">
+        <a href="#get-help" class="btn-primary">Get Help</a>
+        <a href="d.html" class="btn-secondary">Donate Now</a>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="about" class="about">
+    <h2>About HopeHarbor</h2>
+    <p>HavenLink is a platform dedicated to helping homeless individuals find shelters, job opportunities, and essential services. Our mission is to create a bridge between those in need and the resources available in their community.</p>
+  </section>
+
+  
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Shelter Finder</h3>
+        <p>Locate nearby shelters with real-time availability updates.</p>
+      </div>
+      <div class="card">
+        <h3>Job Board</h3>
+        <p>Find job opportunities tailored to your skills and location.</p>
+      </div>
+      <div class="card">
+        <h3>Essential Services</h3>
+        <p>Access food banks, healthcare, and legal aid services.</p>
+      </div>
+    </div>
+  </section>
+</div>
+  <div id="bg2" >
+   <section id="get-help" class="get-help">
+    <h2>Get Help</h2>
+    <p>If you or someone you know is experiencing homelessness, we're here to help. Click the button below to get started.</p>
+    <a href="login.html" class="btn-primary">Sign Up for Help</a>
+   </section>
+
+ 
+   <section id="donate" class="donate">
+    <h2>Donate</h2>
+    <p>Your support can make a difference. Donate today to help us provide resources and opportunities to those in need.</p>
+    <a href="d.html" class="btn-secondary">Donate Now</a>
+   </section>
+  </div >
+ 
+  <footer>
+    <p>&copy; 2024 hope-habor. All rights reserved.</p>
+  </footer>
+
+  
+
+  
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
